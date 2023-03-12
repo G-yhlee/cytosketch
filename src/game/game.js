@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getContext, onMount, onDestroy } from 'svelte';
 import { writable, derived } from 'svelte/store';
 

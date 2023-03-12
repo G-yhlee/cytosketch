@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
 	import { renderable } from './game.js';
 	
 	export let color = 'hsl(0, 0%, 100%)';

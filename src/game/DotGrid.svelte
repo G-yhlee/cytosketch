@@ -4,7 +4,7 @@
 	export let color = 'black';
 	export let divisions = 20;
 	export let pointSize = 1;
-
+	// @ts-ignore
 	renderable(props => {
 		const { context, width, height } = props;
 		const aspect = width / height;

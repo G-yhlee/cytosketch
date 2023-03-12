@@ -7,6 +7,7 @@
 	let elapsed = 0;
 	let frames = 0;
 	let prevTime = performance.now();
+	// @ts-ignore
 	renderable((state, dt) => {
 		let time = performance.now();
 		frames++;
