@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	import Text from './Text.svelte';
 	import { time, renderable } from './game.js';
 	

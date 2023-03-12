@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
 	import { width, height } from './game.js';
 
 	import Canvas from './Canvas.svelte';

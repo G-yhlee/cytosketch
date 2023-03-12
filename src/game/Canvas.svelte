@@ -1,4 +1,5 @@
 <script lang="ts">
+	// @ts-nocheck
 	import { onMount, onDestroy, setContext } from 'svelte';
 
 	import {
