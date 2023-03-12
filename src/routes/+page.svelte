@@ -1,10 +1,13 @@
 <script>
-    import { innerWidth } from "../store/store";
+    import { width , height} from "../_game/game";
+	import App from "../_game/App.svelte";
+    
 
 </script>
-<svelte:window bind:innerWidth={$innerWidth} />
+<svelte:window 
+bind:innerWidth={$width} 
+bind:innerHeight={$height} 
 
-<p>The window inner width is {$innerWidth}</p>
+/>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<App></App>
