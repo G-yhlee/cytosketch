@@ -1,6 +1,6 @@
 <script>
-    import { width , height} from "../_game/game";
-	import App from "../_game/App.svelte";
+    import { width , height} from "../game/game";
+	import App from "../game/App.svelte";
     
 
 </script>
